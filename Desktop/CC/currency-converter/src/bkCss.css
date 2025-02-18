@@ -32,8 +32,7 @@
   flex-direction: column;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 500px;
-  /* height: 100vh; */
+  max-width: 800px;
 }
 
 .title-box {
@@ -48,9 +47,9 @@
 
 .converter-title {
   color: white;
-  font-size: 1rem;
+  font-size: 1.3rem;
   background: #1c1c25;
-  width: 100%;
+  padding: 13px 10px;
   border-radius: 55px;
   display: inline-block;
 }
@@ -64,12 +63,12 @@
 .form-group {
   display: flex;
   flex-direction: column;
-  border: 1px solid #6f6f6f;
+  border: 2px solid #6f6f6f;
 outline: none;
 border-radius: 15px;
   gap: 0.5rem;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   color: white;
 }
 
@@ -81,7 +80,7 @@ border-radius: 15px;
 .input-container {
   display: flex;
   align-items: center;
-  /* border: 1px solid #ccc; */
+  border: 1px solid #ccc;
   color: white;
   border-radius: 4px;
   padding: 0.5rem;
@@ -105,8 +104,6 @@ border-radius: 15px;
 .swap-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
   margin: 0 1rem;
 }
 #form-group-1{
@@ -138,7 +135,6 @@ border-radius: 15px;
 color: white;
   border-radius: 4px;
   background-color: transparent;
-  border: none;
   /* -webkit-appearance: none; */
   cursor: pointer;
   min-width: 200px;
