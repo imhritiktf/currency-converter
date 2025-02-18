@@ -1,0 +1,168 @@
+/* Main container styles */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app-container {
+  min-height: 100vh;
+  background-color: #150c3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1.2rem ;
+}
+
+/* Converter box styles */
+.converter-box {
+  background-color: rgb(0, 0, 0);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 28rem;
+}
+
+/* Title styles */
+.converter-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* margin-bottom: 1.5rem; */
+  text-align: center;
+  margin: 11px 0;
+  color: white;
+  padding: 15px 11px;
+  border-radius: 2rem;
+  display: inline-block;
+  /* border: 1px solid #1f2937; */
+  background-color: rgb(67, 64, 85);
+}
+.title-box{
+  border:  3px solid rgb(34, 34, 34);
+  text-align: center;
+  border-radius: 4rem;
+  margin-bottom: 2rem;
+}
+/* Form container styles */
+.converter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Form group styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  border: 2px solid rgb(34, 34, 34);
+  padding: 1rem;
+  border-radius: 15px;
+ 
+}
+#form-group-1{
+  border: 2px solid rgb(140, 132, 255);
+  
+}
+.icon{
+  color: white;
+  font-size: 1.2rem;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Label styles */
+.form-label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(85, 85, 85);
+  
+}
+
+/* Input field styles */
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  /* border: 1px solid #e5e7eb; */
+  border: none;
+  outline: none;
+  border-radius: 0.375rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Select field styles */
+.form-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  margin-top: .4rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  color: #1f2937;
+  background-color: #ffffff;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 1rem;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Currency selectors grid */
+.currency-selectors {
+ 
+}
+
+/* Convert button styles */
+.convert-button {
+  width: 100%;
+  background-color: #1d23d8;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.convert-button:hover {
+  background-color: #2563eb;
+}
+
+.convert-button:active {
+  background-color: #1d4ed8;
+}
+
+/* Result container styles */
+.result-container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 0.375rem;
+}
+
+/* Result text styles */
+.result-text {
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
